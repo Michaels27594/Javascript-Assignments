@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+/************************* NAV BAR ***************************/
+.nav {
+  align-items: center;
+  background-color: #a1a1a1ec;
+  position: relative;
+  margin: 0px 350px;
+  width: 50%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav h1 {
+  margin-left: 20px;
+}
+#nav input {
+  margin-top: 3px;
+  margin-right: 10px;
+  width: 250px;
+  height: 35px;
+  border-radius: 3px;
+}
+#nav button {
+  font-size: large;
+  margin-right: 20px;
+  margin-top: 3px;
+  width: 80px;
+  height: 30px;
+  background-color: #3852e7;
+  color: #fff;
+  border: 3px #303030;
+  box-shadow: 3px 3px 0px 3px #000000;
+}
+/************************* MAIN BOX ***************************/
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: column-reverse;
+  margin-top: 20px;
+}
+
+/************************* MAIN BOX 1 ***************************/
+
+.ninja-box1 {
+  margin-bottom: 20px;
+  margin-right: 90px;
+  border: solid 3px #000000;
+  width: 400px;
+  display: flex;
+  padding: 20px;
+  height: 120px;
+}
+
+.ninja-box2 {
+  border: solid 3px #000000;
+  width: 400px;
+  display: flex;
+  padding: 20px;
+  height: 120px;
+}
+
+.likes {
+  padding-right: 30px;
+  align-items: center;
+}
+.likes h2 + em + p + button {
+  margin-top: 10px;
+}
+
+.plur {
+  margin-top: 10px;
+  font-size: 5px;
+}
+
+#main button {
+  font-size: smaller;
+  margin-right: 20px;
+  margin-top: 15px;
+  width: 80px;
+  height: 30px;
+  background-color: #fcd83aec;
+  color: #000000;
+  border: 3px #303030;
+  box-shadow: 2px 2px 0px 3px #000000;
+}
+.desc-box {
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+/************************* MAIN BOX 2 ***************************/
+
+.def-box {
+  border: solid 3px #000000;
+  width: 160px;
+  padding: 10px;
+  margin-right: 20px;
+  display: block;
+  justify-content: center;
+}
+.def-box p {
+  font-size: large;
+}
+.def-box button {
+  font-size: smaller;
+  margin-right: 20px;
+  margin-top: 15px;
+  width: 160px;
+  height: 30px;
+  background-color: #5bb644ec;
+  color: #000000;
+  border: 3px #303030;
+  box-shadow: 2px 2px 0px 3px #000000;
+}
