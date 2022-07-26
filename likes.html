@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="profile-page.css" />
+    <link rel="stylesheet" href="likes.css" />
+    <title>Button Clicker</title>
+  </head>
+  <body>
+    <header id="nav">
+      <div class="nav">
+        <ul class="nav-el">
+          <li><h1>Network</h1></li>
+        </ul>
+      </div>
+    </header>
+    <h2 class="feed">Your Feed</h2>
+    <section class="main">
+      <div class="main-box2">
+        <div class="avatar">
+          <img src="user-circle.png" alt="user" />
+          <a href="#">Add an avatar</a>
+          <h2>James Doe</h2>
+        </div>
+      </div>
+      <div id="main" class="main-box1">
+        <div class="person-box">
+          <div class="likes">
+            <h2>Neil M</h2>
+            <em id="like1">9 like(s)</em>
+            <button onclick="ninjaLike()">Likes</button>
+          </div>
+          <div class="desc-box">
+            <p>
+              I just set up this new discord bot, let me know what you all
+              think. <a href="#"> link</a>
+            </p>
+          </div>
+        </div>
+        <div class="person-box">
+          <div class="likes">
+            <h2>Nichole K</h2>
+            <em id="like2" class="diff">12 like(s)</em>
+            <button onclick="ninjaLike2()">Likes</button>
+          </div>
+          <div class="desc-box">
+            <p>Just finished my <a href="#">next comic,</a> check it out.</p>
+          </div>
+        </div>
+        <div class="person-box">
+          <div class="likes">
+            <h2>Jim R</h2>
+            <em id="like3" class="diff2">9 like(s)</em>
+            <button onclick="ninjaLike3()">Likes</button>
+          </div>
+          <div class="desc-box">
+            <p>
+              I can't stop listening to the <a href="#"> new album.</a> Who else
+              is liking it?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="likes.js"></script>
+</html>
